@@ -1,2 +1,11 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+body{font-family: "Noto Sans KR", sans-serif;}
+.section{display: flex; justify-content: center; align-items: center; font-size: 100px; text-transform: uppercase; font-weight: 700; color: white;}
+
+.s1{background-color: antiquewhite;}
+.s2{background-color: cadetblue;}
+.s3{background-color: lightsteelblue;}
+.s4{background-color: lavender;}
