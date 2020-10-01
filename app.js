@@ -40,10 +40,6 @@ const handleScroll = (e) => {
                     y = section.length - 1;
                 }
             }
-            e.preventDefault();
-            // setTimeout(function(){
-            //     e.unbind();
-            // }, 1000)
             div_sections.style.transition = "1s";
             div_sections.style.transform = `translateY(-${height * y}px)`;
         } else {
